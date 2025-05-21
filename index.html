@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammed Alsamhan</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(-45deg, #000000, #1a1a1a, #0d0d0d, #1f1f1f);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 2.3rem;
+      margin-bottom: 10px;
+    }
+
+    .email {
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+
+    .email a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .email a:hover {
+      animation: shake 0.3s infinite;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #007bff;
+      font-size: 1.1rem;
+      transition: transform 0.1s ease-in-out;
+    }
+
+    .links a:hover {
+      animation: shake 0.3s infinite;
+    }
+
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-2px); }
+      50% { transform: translateX(2px); }
+      75% { transform: translateX(-2px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Mohammed Alsamhan</h1>
+    <div class="email">
+      <a href="mailto:malsamhan1@outlook.com">malsamhan1@outlook.com</a>
+    </div>
+    <div class="links">
+      <a href="https://x.com/MALsamhan9" target="_blank">X Program</a>
+      <a href="https://www.linkedin.com/in/mohammed-alsamhan-839002334" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</body>
+</html>
